@@ -1,0 +1,6 @@
+{
+  "name": "Pastelada - Sistema de Vendas e Gestão",
+  "description": "Plataforma completa de vendas online, montador de pastéis artesanais e gestão integrada do Pastelada em Hortolândia-SP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

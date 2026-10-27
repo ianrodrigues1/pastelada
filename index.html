@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pastelada - Sistema de Vendas e Gestão</title>
+    <meta name="description" content="Plataforma completa de vendas online, montador de pastéis artesanais e gestão integrada do Pastelada em Hortolândia-SP." />
+    <meta property="og:title" content="Pastelada - Sistema de Vendas e Gestão" />
+    <meta property="og:description" content="Plataforma completa de vendas online, montador de pastéis artesanais e gestão integrada do Pastelada em Hortolândia-SP." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Barlow Condensed & DM Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,400..800;1,9..40,400..800&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org Restaurant Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FastFoodRestaurant",
+      "name": "Pastelada",
+      "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?q=80&w=800&auto=format&fit=crop",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "R. Zacarias Costa Camargo, 221",
+        "addressLocality": "Hortolândia",
+        "addressRegion": "SP",
+        "postalCode": "13184-300",
+        "addressCountry": "BR"
+      },
+      "telephone": "+5519982034637",
+      "priceRange": "R$ 15 - R$ 60",
+      "servesCuisine": "Pastéis Brasileiros, Pastelaria Artesanal",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "17:00",
+          "closes": "22:45"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Friday", "Saturday"],
+          "opens": "17:00",
+          "closes": "23:45"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday"],
+          "opens": "17:00",
+          "closes": "23:00"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#f8f1e7] text-[#24352b] font-sans antialiased selection:bg-[#e8874a] selection:text-[#24352b]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
